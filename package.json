@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sumeet559/redis-graphs/issues"
   },
-  "homepage": "https://github.com/sumeet559/redis-graphs#readme"
+  "homepage": "https://github.com/sumeet559/redis-graphs#readme",
+  "dependencies": {
+    "ioredis": "^2.4.0"
+  }
 }
