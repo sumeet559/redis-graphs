@@ -1,0 +1,23 @@
+{
+  "name": "redis-graphs",
+  "version": "1.0.0",
+  "description": "Storing graphs/2D arrays in Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumeet559/redis-graphs.git"
+  },
+  "keywords": [
+    "redis",
+    "2Darrays"
+  ],
+  "author": "Sumeet Tiwari <sumeet.tiwari@tlkn.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumeet559/redis-graphs/issues"
+  },
+  "homepage": "https://github.com/sumeet559/redis-graphs#readme"
+}
