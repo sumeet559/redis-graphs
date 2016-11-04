@@ -28,7 +28,7 @@ exports.store = function (options,array,vertexNames,graphName) {
   }
 }
 
-exports.getGraph = function (options,vertexNames,graphName,cb) {
+exports.getGraph = function (options,vertexNames,graphName) {
   var redis = new Redis(options);
   var pipeline=redis.pipeline();
   if(vertexNames.length){
