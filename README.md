@@ -4,7 +4,7 @@ Graph/2D Arrays implementation in redis
 Redis don't support graphs and 2D arrays.The package is an efficient implementation of storing,retrieving and querying 2D arrays in Redis.
 Graphs can be represented using their corresponding adjacency matrices and stored in Redis.
 
-![alt tag](http://knsv.github.io/mermaid/live_editor/#/view/Z3JhcGggVEQ7CiAgICBCLS0-QTsKICAgIEEtLT5EOwogICAgRC0tPkM7CiAgICBDLS0-Qjs)
+![Alt text](http://knsv.github.io/mermaid/live_editor/#/view/Z3JhcGggVEQ7CiAgICBCLS0-QTsKICAgIEEtLT5EOwogICAgRC0tPkM7CiAgICBDLS0-Qjs)
 
 the correspoding adjscency matrix is [[0,0,0,1],[1,0,0,0],[0,1,0,0],[0,0,1,0]];
 # Code Snippet for the above graph 
