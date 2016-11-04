@@ -1,6 +1,6 @@
 {
   "name": "redis-2d-arrays",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Storing graphs/2D arrays in Redis",
   "main": "index.js",
   "scripts": {
