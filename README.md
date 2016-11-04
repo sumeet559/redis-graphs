@@ -1,5 +1,5 @@
 # redis-graphs
-Graph implementation in redis
+Graph/2D Arrays implementation in redis
 
 Redis don't support graphs and 2D arrays.The package is an efficient implementation of storing,retrieving and querying 2D arrays in Redis.
 Graphs can be represented using their corresponding adjacency matrices and stored in Redis.
@@ -8,7 +8,7 @@ Graphs can be represented using their corresponding adjacency matrices and store
 var koa=require("koa");
 var app=koa();
 const fs =require ('fs');
-var Redis=require("./index");
+var Redis=require("redis-2d-arrays");
 app.use(function *(){
   var vertexNames=['a','b','c','d'];
   var array=[[0,0,0,1],[1,0,0,0],[0,1,0,0],[0,0,1,0]];
@@ -24,6 +24,7 @@ app.use(function *(){
 app.listen(8080);
 ```
 ```js
+// This returns a promise.
 var adjMatrix= Redis.getGraph({
         port: 6379,          // Redis port
         host: '127.0.0.1',   // Redis host
